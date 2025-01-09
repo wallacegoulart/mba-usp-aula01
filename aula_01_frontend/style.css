@@ -5,8 +5,9 @@ body{
 
 header{
     background-color: #333;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
+    list-style: none;
 }
 
 
@@ -23,4 +24,44 @@ header nav li a{
 
 header nav li a:hover {
     border-bottom: 1px solid #fff
+}
+
+.produtos{
+    margin:2%;
+}
+
+.produtos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.produtos__item{
+    max-width: 20rem;
+    text-align: center;
+    padding: 0.7rem ;
+    margin: 1rem;
+}
+
+img{
+    width: 100%;
+}
+
+
+.produtos__item h3{
+    font-size: 1.5rem;
+}
+
+.produtos__info h4 s{
+    font-size: 0.8rem;
+    color: red;
+}
+
+footer{
+    background-color: #333;
+    color: #f6f6f6;
+    text-align: center;
+    padding: 0.7rem;
 }
